@@ -1,0 +1,94 @@
+.pc{
+  height: 35%;
+  width: 100%;
+  /* border:solid #0400ff; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color:pink; */
+}
+.pc img{
+  height:180px;
+  width:180px;
+  
+}
+.pc-img{
+  height:188px;
+  width:18px;
+  border-radius:50%;
+  /* border:solid #1eff00; */
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.vs{
+  height: 20%;
+  width: 100%;
+  /* border:solid #2b00ff; */
+  display:flex;align-items: center;
+  justify-content: center;
+}
+.vs span{
+  font-size: 340%;
+  font-family: 'Rubik Bubbles', cursive;
+  color: white;
+
+}
+.you{
+  height: 45%;
+  width: 100%;
+  /* border:solid #3700ff; */
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#stone{
+  width:33%;
+  height:100%;
+  /* border:solid #00ffb3; */
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+#paper{
+  width:33%;
+  height:100%;
+  /* border:solid #00ffb3; */
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+#scissor{
+  width:33%;
+  height:100%;
+  /* border:solid #00ffb3; */
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+#stone img{
+   /* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); */
+  filter:drop-shadow(10px 10px 10px #bfd200);
+  transition:transform 0.3s
+}
+#stone img:hover{
+  transform:scale(1.1);
+}
+#paper img{filter:drop-shadow(10px 10px 10px #bfd200);
+          transition:transform 0.3s}
+#paper img:hover{
+  transform:scale(1.1);
+}
+#scissor img{filter:drop-shadow(10px 10px 10px #bfd200);
+            transition:transform 0.3s
+            }
+#scissor img:hover{
+  transform:scale(1.1);
+}
+.hands{
+  height;140px;
+  width:140px
+}
