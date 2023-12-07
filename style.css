@@ -28,6 +28,10 @@ body {
   color:white;
    font-family: 'Rubik Bubbles', cursive;
 }
+#myAudio,#myAudio2 {
+  visibility: hidden;
+  position: absolute;
+}
 .score{
   display:flex;
   align-items:center;
